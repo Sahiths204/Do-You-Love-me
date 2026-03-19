@@ -12,13 +12,14 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+      margin-top: 20px;
     }
 
     .images img {
-      width: 200px;
-      height: 200px;
-      object-fit: contain;
+      width: 220px;
+      height: auto;              /* 👈 full image visible */
       border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     }
   </style>
 </head>
@@ -29,9 +30,20 @@
     <p>Now it's officially OUR coffee date 💖</p>
 
     <div class="images">
-      <img src="girl.jpg" alt="Her">
-      <img src="me.jpg" alt="Me">
+      <div>
+        <p>Her 💖</p>
+        <img src="girl.jpg" alt="Her">
+      </div>
+
+      <div>
+        <p>Me 😎</p>
+        <img src="me.jpg" alt="Me">
+      </div>
     </div>
+
+    <p style="margin-top:20px;">
+      From coding this… to taking you out ☕😌
+    </p>
 
     <p>See you soon 😉✨</p>
   </div>

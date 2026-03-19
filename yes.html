@@ -2,24 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Our Coffee Date ☕❤️</title>
-  <link rel="stylesheet" href="style.css">
+  <title>YES 💖</title>
 
   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #d9a7a7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      color: #444;
+    }
+
     .images {
       display: flex;
       gap: 20px;
       justify-content: center;
-      align-items: center;
+      margin-top: 20px;
       flex-wrap: wrap;
     }
 
-    .images img {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
+    .images div {
+      background: #fff;
+      padding: 10px;
       border-radius: 20px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      width: 200px;
+    }
+
+    .images img {
+      width: 100%;
+      height: auto; /* 🔥 full image visible */
+      border-radius: 15px;
+    }
+
+    .label {
+      margin-top: 5px;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -30,10 +62,18 @@
     <p>Now it's officially OUR coffee date 💖</p>
 
     <div class="images">
-      <img src="girl.jpeg" alt="Her">
-      <img src="me.jpeg" alt="Me">
+      <div>
+        <img src="girl.jpeg" alt="Her">
+        <div class="label">Her 💖</div>
+      </div>
+
+      <div>
+        <img src="me.jpeg" alt="Me">
+        <div class="label">Me 😎</div>
+      </div>
     </div>
 
+    <p style="margin-top:20px;">From coding this... to taking you out ☕😉</p>
     <p>See you soon 😉✨</p>
   </div>
 </body>
